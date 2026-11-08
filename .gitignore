@@ -1,0 +1,51 @@
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# Runtime files
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+.tmp/
+.temp/
+
+# Cache
+.cache/
+.eslintcache/
+
+# SQLite (if used for local testing)
+*.sqlite
+*.sqlite3
+*.db
